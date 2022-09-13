@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-family: Saeed Hostolipi;
     scroll-behavior: smooth;
 }
@@ -178,7 +178,6 @@ section {
     border: 2px solid var(--black);
     color: var(--black);
     background: var(--white);
-    text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -423,6 +422,7 @@ footer .footerMenu li a {
     text-align: center;
     letter-spacing: 1px;
 }
+
 
 /* Responsiveness */
 

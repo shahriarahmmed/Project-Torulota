@@ -1,5 +1,5 @@
 // Toggle Menu
-const menuToggle = document.querySelector('.menuToggle');
+        const menuToggle = document.querySelector('.menuToggle');
         const navigation = document.querySelector('.navigation');
         menuToggle.onclick = function () {
             menuToggle.classList.toggle('active');
@@ -16,3 +16,12 @@ const menuToggle = document.querySelector('.menuToggle');
             menuToggle.classList.remove('active');
             navigation.classList.remove('active');
         }
+
+
+// dynamic year function
+let year = new Date(); 
+
+const displayYear = document.getElementById("yearFunc"); 
+displayYear.innerText = year.getFullYear();
+
+
